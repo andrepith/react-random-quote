@@ -1,13 +1,15 @@
 {
-  "name": "indecision-app",
+  "name": "thinklater-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "serve": "live-server public/",
+    "build:prod": "webpack -p --env production",
     "build": "webpack",
     "start": "node server/server.js",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +22,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
     "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
     "live-server": "^1.2.0",
     "node-sass": "^4.9.2",
     "normalize.css": "^7.0.0",
