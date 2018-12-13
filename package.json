@@ -1,5 +1,5 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-random-quote",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -39,11 +39,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrepith/react-boilerplate.git"
+    "url": "git+https://github.com/andrepith/react-random-quote.git"
   },
   "bugs": {
-    "url": "https://github.com/andrepith/react-boilerplate/issues"
+    "url": "https://github.com/andrepith/react-random-quote/issues"
   },
-  "homepage": "https://github.com/andrepith/react-boilerplate#readme",
+  "homepage": "https://github.com/andrepith/react-random-quote#readme",
   "description": ""
 }
