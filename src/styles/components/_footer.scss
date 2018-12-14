@@ -1,0 +1,22 @@
+.footer {
+    background: $light-blue
+}
+
+.footer__title {
+    font-size: $l-size;
+    margin: 0;
+    color: $off-white;
+}
+
+.footer__subtitle {
+    color: $off-white;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .footer {
+        margin-bottom: $xl-size;
+    }
+}
