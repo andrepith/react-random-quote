@@ -1,0 +1,15 @@
+.quote-box {
+    border: 5px solid $dark-blue;
+    border-width: 15px;
+    padding: 1em;
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+}
+
+.quote-box__text {
+    font-size: 2rem;
+}

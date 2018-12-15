@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Quotes from '../containers/Quotes';
-import Buttons from '../containers/Buttons';
 
 class App extends Component {
     render() {
@@ -11,7 +10,6 @@ class App extends Component {
             <div>
                 <Header />
                 <Quotes />
-                <Buttons />
                 <Footer />
             </div>
         )

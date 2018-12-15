@@ -1,5 +1,9 @@
 .footer {
-    background: $light-blue
+    background: $light-blue;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
 
 .footer__title {
@@ -8,15 +12,8 @@
     color: $off-white;
 }
 
-.footer__subtitle {
-    color: $off-white;
-    font-size: $m-size;
-    font-weight: 500;
-    margin: 0;
-}
-
-@media (min-width: $desktop-breakpoint) {
-    .footer {
-        margin-bottom: $xl-size;
-    }
-}
+// @media (min-width: $desktop-breakpoint) {
+//     .footer {
+//         margin-bottom: $xl-size;
+//     }
+// }
